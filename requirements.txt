@@ -1,0 +1,5 @@
+agent-framework
+python-dotenv
+pydantic
+ipykernel
+notebook
