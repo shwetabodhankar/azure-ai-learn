@@ -2,7 +2,7 @@
 from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
-mcp = FastMCP("Demo")
+mcp = FastMCP("calculator")
 
 
 # Add an addition tool
@@ -24,4 +24,4 @@ def get_greeting(name: str) -> str:
 
 # Main execution block - this is required to run the server
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport='stdio')
